@@ -1,0 +1,110 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - UIT College</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>Contact and Registration</h1>
+    <p>We would love to hear from you</p>
+</header>
+
+<nav>
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="courses.html">Courses</a>
+    <a href="students.html">Students</a>
+    <a href="academics.html">Academics</a>
+    <a href="contact.html">Contact</a>
+</nav>
+
+<main>
+    <section class="content">
+        <h2>Contact Us</h2>
+
+        <p>Email: info@uitcollege.edu</p>
+        <p>Phone: 9876543210</p>
+        <p>Address: Bhopal, Madhya Pradesh</p>
+
+        <form>
+            <label for="cname">Your Name:</label>
+            <input type="text" id="cname" name="name" required>
+
+            <label for="cemail">Email:</label>
+            <input type="email" id="cemail" name="email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4"></textarea>
+
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <section class="content">
+        <h2>Student Registration Form</h2>
+
+        <form>
+            <label for="sname">Full Name:</label>
+            <input type="text" id="sname" name="student_name" required>
+
+            <label for="semail">Email:</label>
+            <input type="email" id="semail" name="student_email" required>
+
+            <label for="phone">Phone Number:</label>
+            <input type="tel" id="phone" name="phone">
+
+            <label for="course">Select Course:</label>
+            <select id="course" name="course">
+                <option value="">Choose a course</option>
+                <option>B.Tech CSE</option>
+                <option>B.Tech Mechanical</option>
+                <option>B.Tech Civil</option>
+                <option>B.Tech Electrical</option>
+            </select>
+
+            <label for="gender">Gender:</label>
+            <select id="gender" name="gender">
+                <option value="">Select</option>
+                <option>Male</option>
+                <option>Female</option>
+                <option>Other</option>
+            </select>
+
+            <button type="submit">Register Now</button>
+        </form>
+    </section>
+
+    <section class="content">
+        <h2>Feedback Form</h2>
+
+        <form>
+            <label for="fname">Your Name:</label>
+            <input type="text" id="fname" name="feedback_name">
+
+            <label for="rating">Rate Our College:</label>
+            <select id="rating" name="rating">
+                <option>Excellent</option>
+                <option>Good</option>
+                <option>Average</option>
+                <option>Poor</option>
+            </select>
+
+            <label for="feedback">Your Feedback:</label>
+            <textarea id="feedback" name="feedback" rows="4"></textarea>
+
+            <button type="submit">Submit Feedback</button>
+        </form>
+    </section>
+</main>
+
+<footer>
+    <p>© 2026 UIT College</p>
+</footer>
+
+</body>
+</html>
